@@ -11,7 +11,7 @@ CcmLog('WUAHandler') | where LogText contains 'Group policy settings were overwr
 
 # Installed Software by Publisher
 ``` 
-InstalledSoftware | where Publisher like 'Microsoft%
+InstalledSoftware | where Publisher like 'Microsoft'
 ``` 
 # Client with no Boundary
 ```  
